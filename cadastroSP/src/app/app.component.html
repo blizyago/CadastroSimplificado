@@ -1,0 +1,14 @@
+<h1>Cadastro Simplificado de pessoas</h1>
+<form ngForm name='cadastros'>
+<div id= "cadastro">
+  <h1>Cadastro de Pessoas</h1><br>
+  nome <input type="text" 
+  name="titulo" [(ngModel)]="titulo">
+  <button (click)="cadastro()">OK</button><br><br>
+
+  Pessoas Cadastradas<br><br>
+  <li *ngFor="let pessoa of pessoas">
+    {{pessoa}}
+  </li>
+</div>
+</form>

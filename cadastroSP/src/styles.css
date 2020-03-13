@@ -1,0 +1,10 @@
+body {
+    text-align: center;
+}
+#cadastro{
+    border: 2px solid black;
+    width: 450px;
+    height: auto;
+    padding: 10px;
+    margin: auto;
+}
